@@ -1,0 +1,23 @@
+.section1 {
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-bottom: 33px;
+  height: 600px;
+  align-items: center;
+}
+.rightImg {
+  margin-left: 25%;
+}
+.rightImg img {
+  height: 600px;
+}
+.searchPlaces {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
+  color: #484848;
+  width: 420px;
+  height: 530px;
+}

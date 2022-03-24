@@ -1,0 +1,36 @@
+.section6 {
+  margin: 60px 0;
+}
+
+.section6 h3 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #222;
+}
+.booked-img img {
+  border-radius: 7px;
+}
+.booked-places {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.size2 {
+  width: 24%;
+}
+.section6 button {
+  margin-top: 32px;
+  color: #484848;
+  line-height: 1.48;
+  background-color: #fff;
+  border: #000 1px solid;
+  border-radius: 5px;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section6 button:hover {
+  color: #717171;
+}

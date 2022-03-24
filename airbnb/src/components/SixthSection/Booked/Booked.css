@@ -1,0 +1,33 @@
+/* .booked {
+  width: 24%;
+} */
+.location-rating,
+.booked-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booked-img {
+  height: 233px;
+  overflow-y: hidden;
+  margin: 20px 0 15px;
+}
+.booked-img img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+.booked-location p,
+.booked-rating:nth-child(1) {
+  color: #717171;
+  line-height: 1.43;
+}
+.booked-rating:nth-child(2) {
+  color: #222;
+  padding-left: 4px;
+}
+.booked-rating:nth-child(3) {
+  color: #717171;
+  padding-left: 4px;
+}

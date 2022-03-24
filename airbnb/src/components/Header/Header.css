@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.airbnb-logo {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+.redText {
+  color: #ff385c;
+  line-height: 1.43;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.headerLeft {
+  display: flex;
+}
+.host,
+.help,
+.signUp {
+  padding-right: 10px;
+  cursor: pointer;
+}
+.logIn {
+  cursor: pointer;
+}
